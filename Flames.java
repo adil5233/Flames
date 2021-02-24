@@ -20,6 +20,26 @@ public static void main(String[] args) {
 	}
 	int total = length - (count*2);
 	System.out.println(total);
+	
+	public static void main(String[] args) {
+	String s1 = "flames";
+	int position;String temp;
+	while (s1.length() != 1)
+	{
+		position = (total) % s1.length();
+		if ( position != 0)
+		{
+			temp = s1.substring(position)+s1.substring(0,position-1);
+			System.out.println(temp);
+		}
+		else
+		{
+			temp = s1.substring(0,s1.length()-1);
+		}
+		s1 = temp;
+	}
+	System.out.println(s1);
+}
 
 
 
