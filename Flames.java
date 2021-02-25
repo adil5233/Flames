@@ -29,6 +29,30 @@ public class Flames {
             flames = temp;
         }
         System.out.println(flames);
+        /*
+        F	Friends
+        L	Lovers
+        A	Attraction
+        M	Married
+        E	Enemies
+        S	Siblings
+        */
+            switch(flames)
+            {
+            case "f" : System.out.println("Friends");
+                              break;
+            case "l" : System.out.println("Lovers");
+                              break;
+            case "a": System.out.println("Attraction");
+                              break;
+            case "m":System.out.println("Married");
+                              break;
+            case "e" :System.out.println("Enemies");
+                             break;
+            case "s":System.out.println("Sibilings");
+                            break;
+            }
+        }
 
     }
 
