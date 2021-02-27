@@ -6,7 +6,6 @@ public class Flames {
         System.out.println("Enter the string1  : ");
         String s1 = sc.nextLine();System.out.println("Enter the String2 : ");
         String s2 = sc.nextLine();
-        flamesCount(s1,s2);
         flamesResult(flamesCount(s1,s2));
 
     }
@@ -52,9 +51,8 @@ public class Flames {
             case "s":System.out.println("Sibilings");
                             break;
             }
-        }
-
     }
+
 
     private static int flamesCount(String s1, String s2) {
         int length = s1.length()+s2.length();
